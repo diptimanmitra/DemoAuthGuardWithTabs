@@ -1,0 +1,29 @@
+ion-content{
+    --background: #fff url('../../assets/Woodgrain_Backdrop.png') no-repeat center center / cover;
+}
+ion-img{
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+}
+ion-grid{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ion-button{
+    text-transform: none;
+    width: 100px;
+    --border-radius:0;
+}
+ion-card.hydrated{
+    border-radius: 0;
+    padding: 30px;
+    padding-left: 1px;
+    padding-right: 1px;
+    
+}
+
+
+
